@@ -595,10 +595,15 @@ header label{
 
 }
 }
-@media (max-width:1200px) {
+@media (max-width:1300px) {
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
+    .features .box-container .box img{
+        margin-top: 0%;
+        height: 25rem;
+
+}
 }
 @media (max-width:991px) {
     section{
