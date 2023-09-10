@@ -103,6 +103,73 @@ header label{
     width: 40vw;
     animation: float 3s linear infinite ;
 }
+.container .botao-trailer{
+    background-color: #ff0021;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+.container .botao-trailer:hover{
+    transform: scale(1.1);
+}
+.fundo-video{
+    background-color: #d5011d;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden ;
+    display: flex;
+    justify-content: center;
+}
+.fundo-video .video{
+    height: 100vh;
+}
+.modal{
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity:0;
+    visibility:hidden;
+}
+.conteudo-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+
+}
+.fechar-modal{
+    background-color: white;
+    color: var(--pink);
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.modal iframe{
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+.modal.aberto{
+    opacity: 1;
+    visibility: visible;
+}
 @keyframes float {
     0%, 100%{
         transform: translateY(0rem);
