@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leandig page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
@@ -27,12 +28,18 @@
     </header>
     <section class="home" id="home">
         <div class="content">
-            <h3>Best mobile app<span> showcase</span></h3>
+            <h3>WE ARE <span class="multiText">Coder</span></h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod itaque omnis, dolor, quibusdam harum dicta!</p>
-            <a class="btn">About me now</a>
+            <button class="btn">About me now</button>
         </div>
         <div class="image">
-            <img src="src/images/home-img.png" alt="">
+            <img src="src/images/corpo com escudoREAL.png" alt="">
+            <div class = "modal">
+                <div class = "conteudo-modal"> 
+                    <span class="fechar-modal">X</span>
+                    <iframe id="video" width= "560" height= "315" src="https://www.youtube.com/embed/e6sOrVa2eMg?si=3yh0EO1Ttb9cCj3V" tittle="Trailer Oficial" frameborder="1" allow="accelerometer;autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
         </div>
     </section>
     <section class="features" id="features">
@@ -252,6 +259,7 @@
         </div>
         <h1 class="credit">&copy; copyright @ 2023 By Ana Carolina Balbino</h1>
     </div>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/src/js/index.js"></script>
 </body>
 </html>
