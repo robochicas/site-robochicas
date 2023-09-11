@@ -95,7 +95,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('./images/home-bg-img.png') no-repeat;
+    background: url('/src/images/home-bg-img.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -228,7 +228,7 @@ header label{
     padding: 1rem 0;    
 }
 .about{
-    background-image: url('./images//about.png') ; 
+    background-image: url('/src/images/about.png') ; 
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
@@ -265,7 +265,7 @@ header label{
 .newsletter{
     text-align: center;
     padding: 5rem 1rem;
-    background: url('./images/subcribe2.png') no-repeat;
+    background: url('/src/images/subcribe2.png') no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 20rem;
@@ -474,7 +474,7 @@ header label{
 }
 .footer{
     padding-top: 3rem;
-    background: url('./images/13511.png') no-repeat;
+    background: url('/src/images/13511.png') no-repeat;
     background-size:cover;
     background-position: bottom;
 }
