@@ -95,7 +95,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/home-bg-img.png) no-repeat;
+    background-image: url('https://github.com/robochicas/site-robochicas/blob/main/src/images/home-bg-img.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
