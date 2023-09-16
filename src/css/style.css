@@ -1,4 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap');
+ @font-face {
+    font-family: 'NOME DA FONTE';
+    src: url('Nomedafonte-Regular.ttf') format('truetype');
+  }
 :root{
     --purple:#814096;
     --pink:#FF3894;
