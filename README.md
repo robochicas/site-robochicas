@@ -14,6 +14,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Site
 
-- [Acesse o site](robochicas.github.io/site-robochicas/)
+- [Acesse o site](https://github.com/robochicas/site-robochicas)
 
 ##
