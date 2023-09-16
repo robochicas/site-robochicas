@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap');
  @font-face {
-    font-family: 'NOME DA FONTE';
-    src: url('Nomedafonte-Regular.ttf') format('truetype');
+    font-family: 'OriginTech';
+    src: url('../font/OriginTech\ personal\ use.ttf') format('truetype');
   }
 :root{
     --purple:#814096;
@@ -71,10 +71,12 @@ section{
     padding: 1rem;
 }
 .logo{
+    font-family: 'OriginTech';
     font-size: 2rem;
     color:  var(--purple);
 }
 .logo span{
+    font-family: 'OriginTech';
     color: var(--pink);
 }
 .navbar a{
