@@ -1,5 +1,5 @@
 var typeEffect = new Typed(".multiText",{
-    strings:["coder","developer","engineer"],
+    strings:["coders","developers","engineers"],
     loop: true,
     typeSpeed:100,
     backDelay:1500
