@@ -527,27 +527,17 @@ header label{
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid #333;
+    
 }
 .inputBox textarea{
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid #333;
     resize: none;
     min-height: 220px;
     margin-bottom: 10px;
 }
-.inputBox input[type="submit"]{
-    background:#ff578b;
-    color: #fff;
-    border: none;
-    font-size: 1.1em;
-    max-width: 120px;
-    font-weight: 500;
-    cursor: pointer;
-    padding: 14px 15px;
-}
+
 .inputBox::placeholder{
     color: #999;
 }
