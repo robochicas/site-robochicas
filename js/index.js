@@ -1,3 +1,4 @@
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -13,8 +14,8 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
-  var typeEffect = new Typed(".multiText",{
-    strings:["coder","developer","engineer"],
+var typeEffect = new Typed(".multiText",{
+    strings:["coders","developers","engineers"],
     loop: true,
     typeSpeed:100,
     backDelay:1500
