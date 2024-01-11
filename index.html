@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leandig page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -299,7 +300,7 @@
           <div class="swiper-pagination"></div>
        </div>
     </section>
-    <div class="newsletter">
+  <div class="newsletter">
       <h3>Subscribe For New Features</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem neque minima officia cumque ipsa nam deserunt! Enim, quasi. </p>
       <form action="">
@@ -362,6 +363,48 @@
               </div>
           </div>
       </div>
+  </section>  
+  <section class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">
+  
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="https://images.unsplash.com/photo-1569124589354-615739ae007b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+          <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+      
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="https://images.unsplash.com/photo-1595868228899-abc8fabb3447?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+          <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+      
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="https://images.unsplash.com/photo-1524638431109-93d95c968f03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">26 December 2019</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+          <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="blog-slider__pagination"></div>
   </section>
   <section class="pricing" id="pricing">
       <h1 class="heading">our pricing plans</h1>
@@ -401,6 +444,79 @@
           </div>
       </div>
   </section>
+  <section class="contactUS">
+    <div class="title">
+     <h2>Get in Touch</h2>   
+    </div>
+    <div class="boxContact">
+        <div class="contact form">
+            <h3>Send a Message</h3>
+            <form>
+                <div class="formBox">
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>First name</span>
+                            <input type="text" placeholder="Jonh">
+                        </div>
+                        
+                        <div class="inputBox">
+                            <span>Last name</span>
+                            <input type="text" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>Email</span>
+                            <input type="text" placeholder="jonhdoe@email.com">
+                        </div>
+                        
+                        <div class="inputBox">
+                            <span>Mobile</span>
+                            <input type="text" placeholder="+55 (71) 93303-3338">
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputBox">
+                            <span>Message</span>
+                            <textarea placeholder="Write your message here...."></textarea>
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="inputBox">
+                           <input type="submit" value="enviar">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contact infoContact">
+            <h3>Contact info</h3>
+            <div class="infoBox">
+                <div>
+                    <span><ion-icon name="location-outline"></ion-icon></span>
+                    <p>Cannaght Palace, New Dehli <br>INDIA</p>
+                </div>
+                <div>
+                    <span><ion-icon name="mail-unread-outline"></ion-icon></span>
+                    <a href="mailto:loremipsun@email.com">loremipsun@email.com</a>
+                </div>
+                <div>
+                    <span><ion-icon name="call-outline"></ion-icon></span>
+                    <a href="tel:">+55 (71) 93303-3338</a>
+                </div>
+                <ul class="sci">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-discord"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.2446346766956!2d-38.32444112421429!3d-12.697449687593304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71669ae7d95006b%3A0x4bb4953ffe9b2b8d!2sUniversidade%20Federal%20da%20Bahia%20-%20Instituto%20de%20Ci%C3%AAncia%2C%20Tecnologia%20e%20Inova%C3%A7%C3%A3o%20-%20ICTI%2FUFBA%20Cama%C3%A7ari!5e0!3m2!1spt-BR!2sbr!4v1695894442212!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
   <section class="contact" id="contact">
       <div class="image">
           <img src="images/f-icon2.2.png" alt="">
@@ -469,6 +585,7 @@
       <h1 class="credit">&copy; copyright @ 2023 By Ana Carolina Balbino</h1>
   </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./js/index.js"></script>
 </body>
