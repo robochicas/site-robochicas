@@ -150,7 +150,7 @@ section .card .image img{
 }
 .logo{
    font-family: 'OriginTech';
-   font-size: 4rem;
+   font-size: 3.5rem;
    color:  var(--purple);
 }
 .logo span{
@@ -158,7 +158,7 @@ section .card .image img{
    color: var(--pink);
 }
 .navbar a{
-   font-size: 1.7rem;
+   font-size: 1.9rem;
    margin-left: 2rem;
    color: var(--purple);
 }
