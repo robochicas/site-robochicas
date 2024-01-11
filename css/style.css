@@ -718,7 +718,7 @@ header label{
   background: #fff;
 }
 .contact form .heading{
-  text-align: left;
+  text-align: center;
   padding: 0;
   padding-bottom: 2rem;
 }
@@ -830,13 +830,13 @@ header label{
   padding: 10px;
   font-size: 1.1em;
   outline: none;
-  border: 1px solid #333;
+ 
 }
 .inputBox textarea{
   padding: 10px;
   font-size: 1.1em;
   outline: none;
-  border: 1px solid #333;
+  
   resize: none;
   min-height: 220px;
   margin-bottom: 10px;

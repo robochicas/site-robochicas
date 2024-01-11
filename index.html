@@ -446,46 +446,39 @@
       </div>
   </section>
   <section class="contactUS">
-    <div class="title">
-     <h2>Get in Touch</h2>   
-    </div>
     <div class="boxContact">
         <div class="contact form">
-            <h3>Send a Message</h3>
-            <form>
+            <form  action="">
+                <h1 class="heading">contact us!</h1>
                 <div class="formBox">
                     <div class="row50">
                         <div class="inputBox">
-                            <span>First name</span>
-                            <input type="text" placeholder="Jonh">
+                            <input type="text" required>
+                            <label>Nome</label>
                         </div>
                         
                         <div class="inputBox">
-                            <span>Last name</span>
-                            <input type="text" placeholder="Doe">
+                            <input type="text" required>
+                            <label>Sobrenome</label>
                         </div>
                     </div>
                     <div class="row50">
                         <div class="inputBox">
-                            <span>Email</span>
-                            <input type="text" placeholder="jonhdoe@email.com">
+                            <input type="text" required>
+                            <label>E-mail</label>
                         </div>
                         
                         <div class="inputBox">
-                            <span>Mobile</span>
-                            <input type="text" placeholder="+55 (71) 93303-3338">
+                            <input type="text" required>
+                            <label>Telefone</label>
                         </div>
                     </div>
                     <div class="row100">
                         <div class="inputBox">
-                            <span>Message</span>
-                            <textarea placeholder="Write your message here...."></textarea>
+                            <textarea required name="" id="" cols="30" rows="10" placeholder="Escreva sua menssagem aqui"></textarea>
+                            <label>menssagem</label>
                         </div>
-                    </div>
-                    <div class="row100">
-                        <div class="inputBox">
-                           <input type="submit" value="enviar">
-                        </div>
+                        <input type="submit" class="btn" value="enviar menssagem">
                     </div>
                 </div>
             </form>
@@ -518,34 +511,7 @@
         </div>
     </div>
 </section>
-  <section class="contact" id="contact">
-      <div class="image">
-          <img src="images/f-icon2.2.png" alt="">
-      </div>
-      <form action="">
-         
-          <h1 class="heading">contact us!</h1>
-  
-          <div class="inputBox">
-              <input type="text" required>
-              <label>name</label>
-          </div>
-          <div class="inputBox">
-              <input type="email" required>
-              <label>email</label>
-          </div>
-          <div class="inputBox">
-              <input type="number" required>
-              <label>phone</label>
-          </div>
-          <div class="inputBox">
-              <textarea required name="" id="" cols="30" rows="10"></textarea>
-              <label>message</label>
-          </div>
-          <input type="submit" class="btn" value="send a message">
-      </form>
-  </section>
-  <div class="footer">
+<div class="footer">
       <div class="box-container">
           <div class="box">
               <h3>About us</h3>
