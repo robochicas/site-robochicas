@@ -371,13 +371,13 @@ header label{
    color: #666;
    padding: 1rem 0;
 }
-.features .box-container{
+.pilares .box-container{
    display: flex;
    align-items: center;
    justify-content: center;
    flex-wrap: wrap;
 }
-.features .box-container .box{
+.pilares .box-container .box{
    flex: 1 1 30rem;
    background: #fff;
    border-radius: .5rem;
@@ -389,17 +389,22 @@ header label{
    text-align: center;
    transition: .2s linear;
 }
-.features .box-container .box img{
-   height: 15rem;
 
+.pilares .box-container .box img{
+  height: 15rem;
 }
 
-.features .box-container .box h3{
+/*.pilares .box-container .box i{
+  color: #C71585;
+  font-size: 80px;
+}*/
+
+.pilares .box-container .box h3{
    font-size: 2rem;
    color: #333;
    padding-top: 1rem;    
 }
-.features .box-container .box p{
+.pilares .box-container .box p{
    font-size: 1.5rem;
    color: #666;
    padding: 1rem 0;    
