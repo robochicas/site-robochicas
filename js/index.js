@@ -10,7 +10,7 @@ var swiper = new Swiper('.blog-slider',{
         clickable: true
     },
     autoplay: {
-        delay: 5000, // Tempo em milissegundos entre os slides
+        delay: 5000,
     },
 })
 
@@ -29,7 +29,7 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
     autoplay: {
-        delay: 5000, // Tempo em milissegundos entre os slides
+        delay: 5000, 
     },
   });
 var typeEffect = new Typed(".multiText",{
