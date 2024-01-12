@@ -8,7 +8,10 @@ var swiper = new Swiper('.blog-slider',{
     pagination:{
         el:'.blog-slider__pagination',
         clickable: true
-    }
+    },
+    autoplay: {
+        delay: 5000, // Tempo em milissegundos entre os slides
+    },
 })
 
 var swiper = new Swiper(".mySwiper", {
@@ -24,6 +27,9 @@ var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+        delay: 5000, // Tempo em milissegundos entre os slides
     },
   });
 var typeEffect = new Typed(".multiText",{
