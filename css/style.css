@@ -1057,6 +1057,18 @@ header label{
   margin: 2rem;
   margin-left: 7rem;
 }
+
+.footer .box-container .box .buttons{
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 150px;
+}
+
+.footer .box-container .box .buttons a{
+  text-align: center;
+}
+
 .footer .box-container .box h3{
   font-size: 2.5rem;
   padding: 1rem 0;
@@ -1078,20 +1090,21 @@ header label{
 .footer .box-container .box a:hover{
   text-decoration: underline;
 }
-.footer .box-container .box info{
+.footer .box-container .box .info{
   display: flex;
   align-items: center;
 }
-.footer .box-container .box info i{
+.footer .box-container .box .info i{
   margin: .5rem 0;
-  margin-right: 1rem;
+  margin-right: .25rem;
   border-radius: 50%;
   background: #fff;
   color: var(--pink);
   font-size: 1.5rem;
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 4rem;
+  width: 4rem;
   text-align: center;
+  padding: 1.2rem;
 }
 .footer .credit{
   font-size: 2rem;
