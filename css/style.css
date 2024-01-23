@@ -116,6 +116,7 @@ section .card .image img{
 .card .media-icons i{
     color: #fff;
     opacity: 0.6;
+    font-size: 2.3rem;
     margin-top: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -134,9 +135,18 @@ section .card .image img{
     font-size: 20px;
     font-weight: 600;
 }
+.name-profession .profession{
+  font-size: 12px;
+  font-weight: 500 bolder;
+}
 .name-profession .name-profession{
     font-size: 15px;
     font-weight: 500;
+}
+.resumo p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
 }
 .heading{
    text-align: center;
@@ -534,8 +544,8 @@ header label{
   font-size: 2rem;
 }
 .review .box-container .box .user .stars i{
-  color: var(--purple);
-  font-size: 2rem;
+  color: #fff;
+  font-size: 0.5rem;
   padding: 1rem 0;
 
 }
@@ -706,6 +716,7 @@ header label{
   margin-bottom: 15px;
   display: block;
   font-weight: 500;
+  font-size: medium
 }
 .blog-slider__title {
   font-size: 24px;
@@ -717,6 +728,7 @@ header label{
   color: #4e4a67;
   margin-bottom: 30px;
   line-height: 1.5em;
+  font-size: medium;
 }
 .blog-slider__button {
   display: inline-flex;
@@ -730,6 +742,7 @@ header label{
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
+  font-size: medium;
 }
 @media screen and (max-width: 576px) {
   .blog-slider__button {
@@ -1042,7 +1055,9 @@ header label{
 }
 .footer{
   padding-top: 3rem;
-  background: url("../images/13511.png");
+  background-image:   linear-gradient(-225deg,var(--pink) 0%,rgba(255,255,255,0) 40%,rgba(0,255,255,0) 60%,var(--purple) 100%),linear-gradient(45deg,var(--purple) 0%,var(--pink) 100%)
+  ;
+  border-radius: 100% 100% 0% 0% / 40% 40% 0% 0% ;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: bottom;
