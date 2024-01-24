@@ -555,7 +555,7 @@ header label{
   padding: 1rem;
 }
 .blog-slider {
-  width: 65%;
+  width: 80%;
   position: relative;
   max-width: 1800px;
   margin: auto;
@@ -729,6 +729,8 @@ header label{
   margin-bottom: 30px;
   line-height: 1.5em;
   font-size: medium;
+  text-align: justify;
+  width: 100%;
 }
 .blog-slider__button {
   display: inline-flex;
@@ -792,6 +794,7 @@ header label{
   background: #062744;
   opacity: 0.2;
   transition: all 0.3s;
+  
 }
 .blog-slider__pagination .swiper-pagination-bullet-active {
   opacity: 1;
