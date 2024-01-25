@@ -7,7 +7,6 @@
    --purple:#814096;
    --pink:#FF3894;
    --gradient:linear-gradient(90deg,var(--purple),var(--pink));
-
 }
 *{
    font-family: 'Poppins',sans-serif;
