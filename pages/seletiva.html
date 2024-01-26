@@ -32,12 +32,75 @@
         </nav>
     </header>
     <section class="publi" id="publi">
-        <h1 class="heading">Formulário de Inscrição</h1>
-        <div>
-            
+        <div class="container">
+            <div class="form-image">
+                <img src="../images/img_form/undraw_software_engineer_re_tnjc.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Inscreva-se!</h1>
+                        </div>
+
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="name">Nome completo</label>
+                            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Curso</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Digite a graduação que está cursando" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="age">Data de nascimento</label>
+                            <input type="date" name="age" id="age" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input type="tel" name="number" id="number" placeholder="(XX) XXXXX-XXXX" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                        </div>
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="yes" name="gender">
+                                <label for="yes">Sim</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="no" name="gender">
+                                <label for="no">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
-<div class="footer">
+    <div class="footer">
       <div class="box-container">
           <div class="box">
               <h3>Apoia-se</h3>
@@ -81,7 +144,5 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./js/index.js"></script>
-</body>
-</html>
 </body>
 </html>

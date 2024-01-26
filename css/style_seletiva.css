@@ -77,17 +77,6 @@ section{
   .btn:hover{
      transform: scale(1.1);
   }
-  .heading{
-     text-align: center;
-     background: var(--gradient);
-     color: transparent;
-     -webkit-background-clip: text;
-     background-clip: text;
-     font-size: 3.5rem;
-     text-transform: uppercase;
-     padding: 1rem;
-  }
-
   .logo{
      font-family: 'OriginTech';
      font-size: 3.5rem;
@@ -193,3 +182,5 @@ section{
     padding: 2.5rem 1rem;
     text-align: center;
   }
+  
+  
