@@ -565,12 +565,33 @@ header label{
   height: 400px;
   transition: all 0.3s;
 }
-
+@media screen and (max-width: 992px) {
+  .blog-slider {
+    max-width: 680px;
+    height: 400px;
+ }
+}
+@media screen and (max-width: 768px) {
+  .blog-slider {
+    min-height: 500px;
+    height: auto;
+    margin: 180px auto;
+ }
+}
+@media screen and (max-height: 500px) and (min-width: 992px) {
+  .blog-slider {
+    height: 350px;
+ }
+}
 .blog-slider__item {
   display: flex;
   align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__item {
+    flex-direction: column;
+ }
+}
 .blog-slider__item.swiper-slide-active .blog-slider__img img {
   opacity: 1;
   transition-delay: 0.3s;
@@ -653,11 +674,37 @@ header label{
   border-radius: 20px;
   transition: all 0.3s;
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__img {
+    transform: translateY(-50%);
+    width: 90%;
+ }
+}
+@media screen and (max-width: 576px) {
+  .blog-slider__img {
+    width: 95%;
+ }
+}
+@media screen and (max-height: 500px) and (min-width: 992px) {
+  .blog-slider__img {
+    height: 270px;
+ }
+}
 .blog-slider__content {
   padding-right: 25px;
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__content {
+    margin-top: -80px;
+    text-align: center;
+    padding: 0 30px;
+ }
+}
+@media screen and (max-width: 576px) {
+  .blog-slider__content {
+    padding: 0;
+ }
+}
 .blog-slider__content > * {
   opacity: 0;
   transform: translateY(25px);
@@ -698,7 +745,11 @@ header label{
   letter-spacing: 1px;
   font-size: medium;
 }
-
+@media screen and (max-width: 576px) {
+  .blog-slider__button {
+    width: 100%;
+ }
+}
 .blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
   bottom: 10px;
   left: 0;
@@ -715,11 +766,25 @@ header label{
   bottom: auto !important;
   transform: translateY(-50%);
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__pagination {
+    transform: translateX(-50%);
+    left: 50% !important;
+    top: 205px;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}
 .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 8px 0;
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+ }
+}
 .blog-slider__pagination .swiper-pagination-bullet {
   width: 11px;
   height: 11px;
@@ -736,7 +801,12 @@ header label{
   height: 30px;
   box-shadow: 0px 0px 20px rgba(190, 56, 252, 0.3);
 }
-
+@media screen and (max-width: 768px) {
+  .blog-slider__pagination .swiper-pagination-bullet-active {
+    height: 11px;
+    width: 30px;
+ }
+}
 .contact{
   display: flex;
   align-items: center;
@@ -951,6 +1021,39 @@ header label{
 .map iframe{
   width: 100%;
   height: 100%;
+}
+
+@media(max-width:991px){
+  body{
+      background: white;
+  }
+  .contactUS{
+      padding: 20px;    
+  }
+  .box{
+      position: relative;
+      display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "form"
+      "infoContact"
+      "map";
+  }
+  .formBox .row50{
+      display: flex;
+      gap: 0;
+      flex-direction: column;
+  }
+  .inputBox{
+      width: 100%;
+  }
+  .contact{
+      padding: 30px;
+  }
+  .map{
+      min-height: 300px;
+  }
 }
 .footer{
   padding-top: 3rem;
@@ -1178,148 +1281,4 @@ header label{
       margin: 1rem 0; 
   }
  
-}
-@media screen and (max-width: 992px) {
-  .blog-slider {
-    max-width: 680px;
-    height: 400px;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider {
-    min-height: 500px;
-    height: auto;
-    margin: 180px auto;
- }
-}
-@media screen and (max-height: 500px) and (min-width: 992px) {
-  .blog-slider {
-    height: 350px;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__item {
-    flex-direction: column;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__img {
-    transform: translateY(-50%);
-    width: 90%;
- }
-}
-@media screen and (max-width: 576px) {
-  .blog-slider__img {
-    width: 95%;
- }
-}
-@media screen and (max-height: 500px) and (min-width: 992px) {
-  .blog-slider__img {
-    height: 270px;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__content {
-    margin-top: -80px;
-    text-align: center;
-    padding: 0 30px;
- }
-}
-.blog-slider {
-  min-height: 650px;
-  height: 250px;
-  width: 290px;
-  margin: 180px auto;
-}
-@media screen and (max-width: 576px) {
-  .blog-slider__content {
-    padding: 0;
- }
-}
-@media screen and (max-width: 576px) {
-  .blog-slider__button {
-    width: 100%;
- }
-}
-@media screen and (max-width: 576) {
-  .blog-slider__title {
-    font-size: 18px;
-    font-weight: 800;
-    color: #0d0925;
-    margin-bottom: 10px;
-    text-align: right;
-}
-.blog-slider__text {
-  color: #4e4a67;
-  margin-bottom: 30px;
-  line-height: 1.5em;
-  font-size: small;
-  text-align: justify;
-  width: 150%;
-}
-.blog-slider__code {
-  color: #7b7992;
-  margin-bottom: 15px;
-  display: block;
-  font-weight: 500;
-  font-size: medium;
-  text-align: right;
-}
-.blog-slider__img {
-  width: 180%;
-}
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__pagination {
-    transform: translateX(-50%);
-    left: 50% !important;
-    top: 205px;
-    width: 100% !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 5px;
- }
-}
-@media screen and (max-width: 768px) {
-  .blog-slider__pagination .swiper-pagination-bullet-active {
-    height: 11px;
-    width: 30px;
- }
-}
-@media(max-width:991px){
-  body{
-      background: white;
-  }
-  .contactUS{
-      padding: 20px;    
-  }
-  .box{
-      position: relative;
-      display: grid;
-      grid-template-columns:1fr;
-      grid-template-rows: auto;
-      grid-template-areas: 
-      "form"
-      "infoContact"
-      "map";
-  }
-  .formBox .row50{
-      display: flex;
-      gap: 0;
-      flex-direction: column;
-  }
-  .inputBox{
-      width: 100%;
-  }
-  .contact{
-      padding: 30px;
-  }
-  .map{
-      min-height: 300px;
-  }
 }
