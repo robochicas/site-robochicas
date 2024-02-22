@@ -431,11 +431,10 @@ header label{
   flex-wrap: wrap;
 }
 .about .column .image{
-  flex: 1 1 40rem;
+  flex: 1 1 10rem;
 }
 .about .column .image img{
   width: 100%;
-  margin-top: 16%;
 
 }
 .about .column .content{
@@ -452,6 +451,7 @@ header label{
 }
 .about .column .content .buttons a:last-child{
   margin-left: 2rem;
+  margin-top: 7rem;
 }
 .newsletter{
   text-align: center;
