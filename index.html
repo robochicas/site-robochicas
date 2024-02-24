@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     <header>
@@ -53,7 +54,45 @@
         <h1 class="heading">Sobre o clube</h1>
         <div class="column">
             <div class="image">
-                <img src="images/fotos-about.png" alt="">
+                <!--<img src="images/fotos-about.png" alt="">-->
+                <div class="slider">
+                    <div class="slides">
+    
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+    
+                        <div class="slide first">
+                            <img src="./images/cpa.jpg" alt="imagem1">
+                        </div>
+                        <div class="slide">
+                            <img src="./images/congressoufba.jpg" alt="imagem2">
+                        </div>
+                        <div class="slide">
+                            <img src="./images/competição.jpg" alt="imagem3">
+                        </div>
+                        <div class="slide">
+                            <img src="./images/formatura.jpg" alt="imagem4">
+                        </div>
+    
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+    
+                </div>
             </div>
             <div class="content">
                 <p>A RoboChicas é um clube de robótica do Instituto de Ciência, Tecnologia e Inovação (ICTI) da Universidade Federal da Bahia (UFBA), situado no município de Camaçari. </p>
