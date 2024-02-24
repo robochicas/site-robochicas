@@ -33,7 +33,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 var typeEffect = new Typed(".multiText",{
-    strings:["coders","developers","engineers"],
+    strings:["Robotize como uma garota"],
     loop: true,
     typeSpeed:100,
     backDelay:1500
