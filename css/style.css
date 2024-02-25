@@ -43,6 +43,7 @@ header{
 .swiper{
    width: 950px;
 }
+
 section{
    min-height: 65vh;
    padding: 0 9%;
@@ -68,9 +69,9 @@ section{
 }
 
 section .card .image {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%;
     padding: 3px;
     background: var(--purple);
 }
@@ -78,7 +79,7 @@ section .card .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 3px solid #fff;
 } 
 .card{
@@ -100,9 +101,11 @@ section .card .image img{
     display: flex;
     flex-direction: column;
     align-items:center;
+    border-radius: 3px;
     padding: 30px;
     position: relative;
     z-index: 100;
+    min-height: 361px;
 }
 .card .media-icons{
     position: absolute;
@@ -184,98 +187,6 @@ header label{
    visibility: hidden;
    opacity: 0;
 }
-/* .language {
-  position: relative;
-  width: 120px;
-  margin-left: 40px;
-  font-weight: bold;
-}
-.language-selected {
-  display: flex;   
-  align-items: center;
-  color: #fff;
-  cursor: pointer;
-}
-.language-selected:before {
-  content: '';
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: url(https://www.countryflags.io/br/flat/32.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-}
-
-.language-selected.change-br:before {
-  background-image: url(https://www.countryflags.io/br/flat/32.png);
-}
-.language-selected.change-en:before {
-  background-image: url(https://www.countryflags.io/us/flat/32.png);
-}
-.language-selected.change-es:before {
-  background-image: url(https://www.countryflags.io/es/flat/32.png);
-}
-
-.language ul {
-  position: absolute;
-  width: 140px;
-  background-color: #fff;
-  border: 1px solid #f8f8f8;
-  padding-top: 10px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
-  display: none;
-}
-
-.language ul li {
-  list-style: none;
-}
-
-.language ul li a {
-  display: block;
-  color: #252525;
-  padding: 5px 10px;
-}
-
-.language ul li:hover {
-  background-color: #f8f8f8;
-}
-
-.language ul li a:before {
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
-a.br:before {
-  background-image: url(https://www.countryflags.io/br/flat/32.png);
-}
-
-a.en:before {
-  background-image: url(https://www.countryflags.io/us/flat/32.png);
-}
-a.es:before {
-  background-image: url(https://www.countryflags.io/es/flat/32.png);
-}
-
-.language:hover ul {
-  display: block;
-}
-header input{
-   display: none;
-}
-header label{
-   font-size: 3rem;
-   color: var(--purple);
-   cursor: pointer;
-   visibility: hidden;
-   opacity: 0;
-} */
 .home{
   display: flex;
   align-items: center;
@@ -1158,6 +1069,213 @@ header label{
 
 
 
+/* Mídia para telas com largura máxima de 1900px */
+@media (max-width: 1900px) {
+  html {
+      font-size: 55%;
+  }
+  .features .box-container .box img {
+      margin-top: 0%;
+      height: 25rem;
+  }
+}
+
+/* Mídia para telas com largura máxima de 1300px */
+@media (max-width: 1300px) and (min-width: 1120px) {
+  html {
+      font-size: 53%;
+  }
+  .features .box-container .box img {
+      margin-top: 0%;
+      height: 25rem;
+  }
+  .card {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
+
+/* Mídia para telas com largura máxima de 991px */
+@media (max-width: 991px) {
+  section {
+      padding: 0 3%;
+      padding: 7.5rem;
+  }
+  body {
+      background: white;
+  }
+  .contactUS {
+      padding: 20px;
+  }
+  .box {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "form" "infoContact" "map";
+  }
+  .formBox .row50 {
+      display: flex;
+      gap: 0;
+      flex-direction: column;
+  }
+  .inputBox {
+      width: 100%;
+  }
+  .contact {
+      padding: 30px;
+  }
+  .map {
+      min-height: 300px;
+  }
+}
+
+/* Mídia para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  header label {
+      visibility: visible;
+      opacity: 1;
+  }
+  .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      padding: 1rem 2rem;
+      border-top: 1rem solid rgba(0, 0, 0, .2);
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+      transform-origin: top;
+      transform: scaleY(0);
+      opacity: 0;
+      text-align: center;
+      transition: .2s linear;
+  }
+  .navbar a {
+      display: block;
+      margin: 2rem 0;
+      font-size: 2rem;
+  }
+  input:checked ~ .navbar {
+      transform: scaleY(1);
+      opacity: 1;
+  }
+  input:checked ~ label::before {
+      content: '\f00d';
+  }
+  .home {
+      flex-flow: column-reverse;
+      margin-right: 0%;
+  }
+  .home .image img {
+      width: 100%;
+  }
+  .home .content h3 {
+      font-size: 3.6rem;
+  }
+  .home .content p {
+      font-size: 1.5rem;
+  }
+  .about {
+      background-position: right;
+  }
+  .newsletter p {
+      width: auto;
+      margin-top: 1rem;
+  }
+  .blog-slider {
+      min-height: 500px;
+      height: auto;
+      margin: 180px auto;
+  }
+  .blog-slider__item {
+      flex-direction: column;
+  }
+  .blog-slider__img {
+      transform: translateY(-50%);
+      width: 90%;
+  }
+  .blog-slider__content {
+      margin-top: -80px;
+      text-align: center;
+      padding: 0 30px;
+  }
+  .blog-slider__button {
+      width: 100%;
+  }
+  .blog-slider__pagination {
+      transform: translateX(-50%);
+      left: 50% !important;
+      top: 205px;
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 5px;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet-active {
+      height: 11px;
+      width: 30px;
+  }
+  .card {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* Mídia para telas com largura máxima de 576px */
+@media (max-width: 576px) {
+  html {
+      font-size: 50%;
+  }
+  .home .content h3 {
+      font-size: 2.5rem;
+  }
+  .home .content p {
+      font-size: 1.3rem;
+  }
+  .about .column .content .buttons a {
+      width: 100%;
+      text-align: center;
+  }
+  .about .column .content .buttons a:last-child {
+      margin: 1rem 0;
+  }
+  .blog-slider__img {
+      width: 95%;
+  }
+}
+
+/* Mídia para telas com largura máxima de 992px */
+@media screen and (max-width: 992px) {
+  .blog-slider {
+      max-width: 680px;
+      height: 400px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card__data {
+    padding: 1rem;
+  }
+}
+/* Mídia para telas com altura máxima de 500px e largura mínima de 992px */
+@media screen and (max-height: 500px) and (min-width: 992px) {
+  .blog-slider {
+      height: 350px;
+  }
+}
 
 
 
@@ -1185,7 +1303,7 @@ header label{
 
 
 
-
+/* 
 @media (max-width:1900px) {
   html{
       font-size: 55%;
@@ -1393,4 +1511,4 @@ header label{
   .map{
       min-height: 300px;
   }
-}
+} */

@@ -15,9 +15,7 @@ var swiper = new Swiper('.blog-slider',{
 })
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -31,6 +29,17 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 5000, 
     },
+    breakpoints:{
+        300: {
+            slidesPerView: 1,
+          },
+        600: {
+          slidesPerView: 2,
+        },
+        968: {
+          slidesPerView: 3,
+        },
+    },   
   });
 var typeEffect = new Typed(".multiText",{
     strings:[" como uma garota 🦾"],
