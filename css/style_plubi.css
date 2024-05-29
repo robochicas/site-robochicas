@@ -47,6 +47,7 @@ section{
     padding: 0 9%;
     padding: 7.5rem;
  }
+ 
 .heading{
      text-align: center;
      background: var(--gradient);
@@ -65,6 +66,25 @@ section{
     font-size: 3.5rem;
     text-transform: uppercase;
     padding: 1rem;
+}
+.titulo-publicacao .{
+    color: #0d0925;
+}
+.titulo-publicacao{
+    font-size: medium;
+    font-weight: 700;
+    color: #0d0925;
+    margin-bottom: 8px;
+    text-decoration: underline;
+
+}
+.autores-publicacao{
+    color: #4e4a67;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    font-size: small;
+    text-align: justify;
+    width: 100%;
 }
 .logo{
      font-family: 'OriginTech';
